@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#23424A;
+    --secondary-color:#136C72;
+    --cta-color:#38CFD9;
+    --heading-textcolor:#87629A;
+
+    --heading-font:Roboto Black font-size: 48px;
+    --subheading-font:Roboto Black font-size: 36px;
+    --paragraph-font:Roboto Regular font-size: 21px;
+}
+body{
+    font-size: 14px;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 30vh;
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
+h1{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--paragraph-font);
+}
+.container,.container-mid{
+    display: flex;
+    flex-direction: column;
+
+}
+.container1, .container2{
+    display: flex;
+    flex-direction: row;
+    min-height: 30vh;
+    
+}
+.container2{
+    background-color: var(--secondary-color);
+}
+.item{
+    padding: 3rem;
+    text-align: center;
+}
+footer{
+    background-color: var(--primary-color);
+    min-height: 10vh;
+}
