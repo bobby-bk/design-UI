@@ -1,0 +1,17 @@
+body{
+    height:100vh;
+    width:100vw;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, magenta 50%, yellow 50%);
+    
+  }
+  
+  .container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image:linear-gradient(to right, magenta 50%, yellow 50%);
+    transform: rotate(180deg);
+  }
